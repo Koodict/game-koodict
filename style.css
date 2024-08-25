@@ -1,0 +1,98 @@
+.main-background{
+    background: url(/HomeImg.jpg);
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.checked {
+    color: orange;
+  }
+
+  .bta {
+  display: inline-block;
+  background:rgb(201, 94, 7);
+  color: #fff;
+  padding: 5% 15%;
+  cursor: pointer;
+ clip-path: polygon(0 0, 100% 0%, 86% 99%, 0 100%);
+  transition: all .5s;
+  }
+.bta:hover
+{
+    background-color: rgb(255, 172, 95);
+    color: black;
+}
+
+.main-back{
+    background: url(/Ass2.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    
+    color: white;
+}
+.over{
+    background-color: rgba(19, 3, 24, 0.637);
+    width: 100%;
+    height: 100%;
+}
+
+
+a:hover
+{
+ background-color: rgb(0, 0, 0);   
+ cursor: pointer;
+ /*clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);*/
+ transition: all .5s;
+ padding: 5px;
+ 
+}
+
+.foot
+{
+    background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contro
+{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+::placeholder
+{
+    color: rgb(255, 255, 255);
+}
+
+a:link, a:visited{
+    
+    color: rgb(255, 255, 255);
+    
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+  a:hover, a:active {
+    background-color: rgb(255, 156, 7);
+   
+  }
+  
+  
